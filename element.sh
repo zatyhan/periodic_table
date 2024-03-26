@@ -5,6 +5,7 @@ then
   echo Please provide an element as an argument.
 
 else
+  element=$1
   if [[ $element =~ ^[0-9]+$ ]]
   then
     atomic_number=$element
